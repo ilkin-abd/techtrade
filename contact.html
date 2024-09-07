@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechTrade - About Us</title>
+    <link rel="stylesheet" href="css/contactstyles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="TechTrade Logo">
+                <div class="logo-text" data-translate="TechTrade Solutions">TechTrade Solutions</div>
+            </div>
+            <ul>
+                <li><a href="index.html" data-translate="Home">Home</a></li>
+                <li><a href="about.html" data-translate="About">About</a></li>
+                <li><a href="services.html" data-translate="Services">Services</a></li>
+                <li><a href="blog.html" data-translate="Blog">Blog</a></li>
+                <li><a href="contact.html" class="active" data-translate="Contact Us">Contact Us</a></li>
+            </ul>
+            <div class="header-buttons">
+                <div class="language-dropdown">
+                    <!-- Current selected language flag -->
+                    <button class="language-button">
+                        <img src="images/en-flag.png" alt="English" title="English" id="current-language-flag">
+                    </button>
+                    <div class="language-options">
+                        <!-- Language options to choose from -->
+                        <a href="#" class="language-option" id="translate-az"><img src="images/az-flag.png" alt="Azerbaijani" title="Azerbaijani"></a>
+                        <a href="#" class="language-option" id="translate-en"><img src="images/en-flag.png" alt="English" title="English"></a>
+                        <a href="#" class="language-option" id="translate-ru"><img src="images/ru-flag.png" alt="Russian" title="Russian"></a>
+                    </div>
+                </div>
+                <a href="#" class="get-quote-button" data-translate="Get A Quote">Get A Quote</a>
+            </div>            
+        </nav>
+    </header>
+
+<main>
+    <!-- Hero Section -->
+    <section class="contact-hero">
+        <div class="banner-overlay"> <!-- Overlay element -->
+            <div class="hero-content">
+                <h1 data-translate="Contact us">Contact us</h1>
+                <p  data-translate="We're here to help you. Reach out to us with any questions or inquiries.">We're here to help you. Reach out to us with any questions or inquiries.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <section class="contact-info">
+        <div class="info-container">
+            <h2 data-translate="Our Contact Information">Our Contact Information</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3 data-translate="Our Office">Our Office</h3>
+                    <p>1, A. Javad Street, Shusha City, Azerbaijan, AZ5800</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <h3 data-translate="Phone">Phone</h3>
+                    <p>+994 50 788 0058</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p><a href="mailto:contact@tech-tradesolutions.com">contact@tech-tradesolutions.com</a></p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <h3 data-translate="Working Hours">Working Hours</h3>
+                    <p  data-translate="Mon - Fri: 9:00 AM - 6:00 PM">Mon - Fri: 9:00 AM - 6:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form">
+        <div class="form-container">
+            <h2 data-translate="Get in Touch">Get in Touch</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button"    data-translate="Send Message">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+<!-- New Location Section with Map -->
+<section class="location-section">
+    <div class="location-wrapper">
+        <div class="map-container">
+            <!-- Replace the src with your actual Google Maps embed link -->
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.609052598862!2d-75.17040878428252!3d39.952583879422834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6c65d7b7c93e9%3A0x1d5d9e62e1b3c775!2sTechTrade%20Solutions!5e0!3m2!1sen!2sus!4v1631246210042!5m2!1sen!2sus" 
+                width="100%" 
+                height="400" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+        <div class="contact-details">
+            <h3 data-translate="Visit Us">Visit Us</h3>
+            <p data-translate="We would love to welcome you to our office. Please contact us to schedule a visit or for more information about our services.">We would love to welcome you to our office. Please contact us to schedule a visit or for more information about our services.</p>
+            <ul>
+                <li><strong data-translate="Address:">Address:</strong> 1, A. Javad Street, Shusha City, Azerbaijan, AZ5800</li>
+                <li><strong data-translate="Phone:">Phone:</strong> +994 50 788 0058</li>
+                <li><strong data-translate="Email:">Email:</strong> <a href="mailto:contact@tech-tradesolutions.com">contact@tech-tradesolutions.com</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="footer-container">
+        <!-- Company Info -->
+        <div class="footer-column footer-about">
+            <h3 data-translate="About Us">About Us</h3>
+            <p data-translate="At TechTrade Solutions, we deliver innovative IT solutions to help businesses excel in the digital age. Join us on our journey to drive growth and innovation.">At TechTrade Solutions, we deliver innovative IT solutions to help businesses excel in the digital age. Join us on our journey to drive growth and innovation.</p>
+            <p><strong data-translate="Email:">Email:</strong> <a href="mailto:contact@tech-tradesolutions.com">contact@tech-tradesolutions.com</a></p>
+            <p><strong data-translate="Phone:">Phone:</strong> <a href="tel:+994507880058">+994 50 788 0058</a></p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column footer-links">
+            <h3 data-translate="Quick Links">Quick Links</h3>
+            <ul>
+                <li><a href="index.html" data-translate="Home">Home</a></li>
+                <li><a href="about.html" data-translate="About Us">About Us</a></li>
+                <li><a href="services.html" data-translate="Services">Services</a></li>
+                <li><a href="contact.html" data-translate="Contact Us">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="footer-column footer-social">
+            <h3 data-translate="Follow Us">Follow Us</h3>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="footer-column footer-newsletter">
+            <h3 data-translate="Stay Updated">Stay Updated</h3>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your Email" required data-translate="Your Email">
+                <button type="submit" data-translate="Subscribe">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom">
+        <p data-translate="© 2024 TechTrade Solutions. All rights reserved.">© 2024 TechTrade Solutions. All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+    document.querySelector('.language-button').addEventListener('click', function(event) {
+        event.stopPropagation(); // Prevents click event from propagating
+        const options = document.querySelector('.language-options');
+        // Toggle the display of the language options
+        options.style.display = options.style.display === 'block' ? 'none' : 'block';
+    });
+    
+    document.addEventListener('click', function() {
+        const options = document.querySelector('.language-options');
+        options.style.display = 'none'; // Hide the dropdown when clicking outside
+    });
+    </script> 
+
+<script>
+    // Translation dictionary
+    const translations = {
+        az: {
+            "Home": "Ana Səhifə",
+            "About": "Haqqında",
+            "Services": "Xidmətlər",
+            "Blog": "Bloq",
+            "Contact Us": "Əlaqə",
+            "Get A Quote": "Təklif Alın",
+            "Contact us": "Bizimlə Əlaqə Saxlayın",
+            "We're here to help you. Reach out to us with any questions or inquiries.": "Biz sizə kömək etməyə hazırıq. Hər hansı sual və ya sorğularınız üçün bizimlə əlaqə saxlayın.",
+            "Our Contact Information": "Əlaqə Məlumatlarımız",
+            "Our Office": "Ofisimiz",
+            "Phone": "Əlaqə Nömrəsi",
+            "Working Hours": "İş Saatları",
+            "Get in Touch": "Əlaqə saxlayın",
+            "Mon - Fri: 9:00 AM - 6:00 PM": "Bzrt - Cümə: 9:00 - 6:00",
+            "At TechTrade Solutions, we deliver innovative IT solutions to help businesses excel in the digital age. Join us on our journey to drive growth and innovation.": "TechTrade Solutions-da biz innovativ IT həlləri təqdim edirik ki, bizneslər rəqəmsal dövrdə müvəffəqiyyət qazana bilsinlər. İnkişaf və innovasiya yolunda bizimlə birləşin.",
+            "About Us": "Haqqında",
+            "Stay Updated": "Yeniliklərdən xəbərdar ol",
+            "Follow Us": "Bizi izləyin",
+            "Quick Links": "Linklər",
+            "Visit Us": "Əlaqəyə Keçin",
+            "We would love to welcome you to our office. Please contact us to schedule a visit or for more information about our services.": "Ofisimizdə sizi qarşılamaqdan məmnun olarıq. Görüş cədvəlini təyin etmək və ya xidmətlərimiz haqqında daha ətraflı məlumat üçün bizimlə əlaqə saxlayın.",
+            "Phone:": "Əlaqə Nömrəsi:",
+            "Address:": "Ünvan:",
+            },
+        ru: {
+            "Home": "Главная",
+            "About": "О компании",
+            "Services": "Услуги",
+            "Blog": "Блог",
+            "Contact Us": "Связаться с нами",
+            "Get A Quote": "Получить предложение",
+            "Contact us": "Свяжитесь с нами",
+            "We're here to help you. Reach out to us with any questions or inquiries.": "Мы здесь, чтобы помочь вам. Свяжитесь с нами по любым вопросам или запросам.",
+            "Our Contact Information": "Наша Контактная Информация",
+            "Our Office": "Наш Офис",
+            "Phone": "Телефон",
+            "Working Hours": "Часы Работы",
+            "Get in Touch": "Свяжитесь с нами",
+            "Mon - Fri: 9:00 AM - 6:00 PM": "Пн - Пт: 9:00 - 18:00",
+            "At TechTrade Solutions, we deliver innovative IT solutions to help businesses excel in the digital age. Join us on our journey to drive growth and innovation.": "В TechTrade Solutions мы предоставляем инновационные IT-решения, которые помогают бизнесам добиваться успеха в цифровую эпоху. Присоединяйтесь к нам на пути к росту и инновациям.",
+            "About Us": "О Нас",
+            "Stay Updated": "Оставайтесь в курсе",
+            "Follow Us": "Подпишитесь на нас",
+            "Quick Links": "Быстрые Ссылки",
+            "Visit Us": "Посетите Нас",
+            "We would love to welcome you to our office. Please contact us to schedule a visit or for more information about our services.": "Мы будем рады приветствовать вас в нашем офисе. Пожалуйста, свяжитесь с нами, чтобы назначить встречу или получить дополнительную информацию о наших услугах.",
+            "Phone:": "Телефон:",
+            "Address:": "Адрес:",
+            },
+        en: {
+            "Home": "Home",
+            "About": "About",
+            "Services": "Services",
+            "Blog": "Blog",
+            "Contact Us": "Contact Us",
+            "Get A Quote": "Get A Quote",
+            "YOUR TRUSTED TECH PARTNER": "YOUR TRUSTED TECH PARTNER",
+            "TRANSFORMING BUSINESS OPERATIONS WITH ADVANCED IT SOLUTIONS": "TRANSFORMING BUSINESS OPERATIONS WITH ADVANCED IT SOLUTIONS",
+            "At TechTrade, we deliver innovative technology solutions to help your business thrive in the digital era. From infrastructure to innovation, we provide comprehensive tech services tailored to your needs": "At TechTrade, we deliver innovative technology solutions to help your business thrive in the digital era. From infrastructure to innovation, we provide comprehensive tech services tailored to your needs",
+            "Let's Talk": "Let's Talk",
+            "Read More": "Read More",
+            "About TechTrade Solutions": "About TechTrade Solutions",
+            "TechTrade Solutions is a leading provider of innovative IT solutions, committed to empowering businesses with cutting-edge technology strategies. Our mission is to deliver customized, reliable, and scalable solutions that drive business growth and success in the digital era.": "TechTrade Solutions is a leading provider of innovative IT solutions, committed to empowering businesses with cutting-edge technology strategies. Our mission is to deliver customized, reliable, and scalable solutions that drive business growth and success in the digital era.",
+            "With a team of experienced professionals, we partner with our clients to provide comprehensive services that meet their unique needs, from cloud solutions and cybersecurity to digital transformation and beyond.": "With a team of experienced professionals, we partner with our clients to provide comprehensive services that meet their unique needs, from cloud solutions and cybersecurity to digital transformation and beyond.",
+            "Learn More": "Learn More",
+            "Our Services": "Our Services",
+            "Frequently Asked Questions": "Frequently Asked Questions",
+            "What services does TechTrade offer?": "What services does TechTrade offer?",
+            "We provide comprehensive IT solutions including infrastructure, software development, cloud services, cybersecurity, and more.": "We provide comprehensive IT solutions including infrastructure, software development, cloud services, cybersecurity, and more.",
+            "How can I get a consultation?": "How can I get a consultation?",
+            "You can schedule a consultation by contacting us through our website or calling our support team directly.": "You can schedule a consultation by contacting us through our website or calling our support team directly.",
+            "What industries does TechTrade specialize in?": "What industries does TechTrade specialize in?",
+            "We specialize in a wide range of industries, including finance, healthcare, retail, education, and technology, among others.": "We specialize in a wide range of industries, including finance, healthcare, retail, education, and technology, among others.",
+            "Do you provide support and maintenance services?": "Do you provide support and maintenance services?",
+            "Yes, we offer ongoing support and maintenance services to ensure your systems are always running smoothly and efficiently.": "Yes, we offer ongoing support and maintenance services to ensure your systems are always running smoothly and efficiently.",
+            "How do you ensure data security and privacy?": "How do you ensure data security and privacy?",
+            "We implement industry-standard security measures, including encryption, access control, and regular security audits, to protect your data and ensure compliance with all regulations.": "We implement industry-standard security measures, including encryption, access control, and regular security audits, to protect your data and ensure compliance with all regulations.",
+            "Our Trusted Partners": "Our Trusted Partners",
+            "We proudly collaborate with industry leaders to deliver the best solutions for our clients.": "We proudly collaborate with industry leaders to deliver the best solutions for our clients.",
+            "What Our Clients Say": "What Our Clients Say",
+            "Ready to Elevate Your Business with TechTrade?": "Ready to Elevate Your Business with TechTrade?",
+            "Partner with us for cutting-edge IT solutions and take your business to the next level.": "Partner with us for cutting-edge IT solutions and take your business to the next level.",
+            "Get Started Today": "Get Started Today"
+        }
+    };
+
+// Function to translate the website content
+function translateContent(language) {
+    document.querySelectorAll('[data-translate]').forEach(element => {
+        const key = element.getAttribute('data-translate');
+        element.textContent = translations[language][key] || key;
+    });
+}
+
+// Function to switch the language flag in the header
+function switchLanguageFlag(selectedLang) {
+    const currentFlag = document.getElementById('current-language-flag');
+    const flagMap = {
+        az: 'images/az-flag.png',
+        en: 'images/en-flag.png',
+        ru: 'images/ru-flag.png'
+    };
+    const titleMap = {
+        az: 'Azerbaijani',
+        en: 'English',
+        ru: 'Russian'
+    };
+
+    // Update the current flag
+    currentFlag.src = flagMap[selectedLang];
+    currentFlag.alt = titleMap[selectedLang];
+    currentFlag.title = titleMap[selectedLang];
+
+    // Hide the selected flag from the dropdown
+    document.querySelectorAll('.language-option').forEach(option => {
+        if (option.id === 'translate-' + selectedLang) {
+            option.style.display = 'none';
+        } else {
+            option.style.display = 'block';
+        }
+    });
+}
+
+// Set the initial language on page load
+document.addEventListener('DOMContentLoaded', () => {
+    const storedLanguage = localStorage.getItem('language') || 'en'; // Default to English
+    translateContent(storedLanguage);
+    switchLanguageFlag(storedLanguage);
+});
+
+// Event listeners for language switch
+document.getElementById('translate-az').addEventListener('click', (e) => {
+    e.preventDefault();
+    localStorage.setItem('language', 'az'); // Store selected language
+    translateContent('az');
+    switchLanguageFlag('az');
+});
+
+document.getElementById('translate-en').addEventListener('click', (e) => {
+    e.preventDefault();
+    localStorage.setItem('language', 'en'); // Store selected language
+    translateContent('en');
+    switchLanguageFlag('en');
+});
+
+document.getElementById('translate-ru').addEventListener('click', (e) => {
+    e.preventDefault();
+    localStorage.setItem('language', 'ru'); // Store selected language
+    translateContent('ru');
+    switchLanguageFlag('ru');
+});
+</script>
+</script>
+
+</body>
+</html>
